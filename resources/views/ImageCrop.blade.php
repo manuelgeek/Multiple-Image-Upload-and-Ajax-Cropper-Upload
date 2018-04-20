@@ -30,7 +30,7 @@
 
 
 	  		<div class="col-md-4" style="">
-				<div id="upload-demo-i" style="background:#e1e1e1;width:300px;padding:30px;height:300px;margin-top:30px"></div>
+				<div id="upload-demo-i" style="background:#e1e1e1;width:350px;padding:30px;height:200px;margin-top:30px"></div>
 	  		</div>
 	  	</div>
 
@@ -53,13 +53,13 @@ headers: {
 $uploadCrop = $('#upload-demo').croppie({
     enableExif: true,
     viewport: {
-        width: 200,
-        height: 200,
-        type: 'circle'
+        width: 300,
+        height: 150,
+        type: 'square' //circle
     },
     boundary: {
-        width: 300,
-        height: 300
+        width: 350,
+        height: 200
     }
 });
 
